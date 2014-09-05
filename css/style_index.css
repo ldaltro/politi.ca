@@ -1,0 +1,127 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+/* TODO Ribbon */
+body {
+    background-color: yellow;
+}
+
+body:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    content: "";
+    background-color: darkseagreen;
+}
+
+div.circulo {
+    position: fixed;
+    top: 200px;
+    left: 550px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    z-index: -2;
+}
+
+h1 {
+    margin: auto;
+    width: 600px;
+    color: yellow;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 135px;
+    top: 400px;
+    text-shadow: 0 6px rgba(0, 0, 0, 0.4);
+}
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: greenyellow;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+    left: 69%;
+    top: 0px;
+    color: yellow;
+    font-size: 30px;
+    text-shadow: 0 2.5px rgba(0, 0, 0, 0.4);
+}
+
+#pergunta {
+    position: fixed;
+    left: 400px;
+    width: 640px;
+    color: transparent;
+    top: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 60px;
+}
+
+#presidente {
+    float: left;
+    padding-right: 50px;
+    position: fixed;
+    top: 350px;
+    left: 400;
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+#governador {
+    float: left;
+    padding-right: 50px;
+    position: fixed;
+    top: 350px;
+    left: 900;
+
+}
+
+#imgPresidente {
+    width: 200px;
+    height: 200px;
+}
+
+/*#imgPresidente:hover {
+    width: 250px;
+    height: 250px;
+}*/
+
+#imgGovernador {
+    width: 200px;
+    height: 200px;
+}
+
+/*#imgGovernador:hover {
+    width: 250px;
+    height: 250px;
+}*/
+
+#txtPresidente {
+    right: 207px;
+}
+
+#pres {
+    position: fixed;
+    top: 550px;
+    left: 400px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: darkseagreen;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+#gov {
+    position: fixed;
+    top: 550px;
+    left: 910px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: darkseagreen;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}

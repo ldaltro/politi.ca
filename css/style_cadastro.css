@@ -1,0 +1,154 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+    background-color: yellow;
+}
+
+body:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    content: "";
+    background-color: darkseagreen;
+
+}
+
+div.circulo {
+    position: fixed;
+    top: 200px;
+    left: 550px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    z-index: -2;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 0 #CCC,
+    2px 2px 0 #CCC,
+    3px 3px 0 #444,
+    4px 4px 0 #444,
+    5px 5px 0 #444,
+    6px 6px 0 #444;
+}
+
+h2 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(237, 237, 247, 0.10),
+    0 0 5px rgba(255, 255, 255, 0.10),
+    0 1px 3px rgba(0, 0, 0, .3),
+    0 3px 5px rgba(0, 0, 0, .2),
+    0 5px 10px rgba(0, 0, 0, .25),
+    0 10px 10px rgba(0, 0, 0, .2),
+    0 20px 20px rgba(0, 0, 0, .15);
+}
+
+div.candidato {
+    background-color: greenyellow;
+    width: 400px;
+    padding: 20px;
+    margin-left: 210px;
+    border: 2px transparent;
+    border-radius: 25px;
+    float: left;
+}
+
+img {
+    position: relative;
+    left: 100px;
+    border: 2px greenyellow;
+    border-radius: 10px;
+
+}
+
+img:hover {
+    border: 200px darkseagreen;
+    border-radius: 25px;
+}
+
+p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+}
+
+a:link, a:visited, a:hover, a:active {
+    left: 900px;
+    color: white;
+    text-decoration: none;
+}
+
+#cadastro {
+    position: absolute;
+    left: 35%;
+    top: 100px;
+    background-color: greenyellow;
+    border: 20px solid greenyellow;
+    border-radius: 25px;
+    width: 25%;
+    align-content: center;
+}
+
+#cadastro {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+input#button {
+    color: white;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    border: 1px none white;
+    border-radius: 25px;
+    line-height: 100%;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 14px 26px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+    transition: background 0.1s ease-in-out;
+    -webkit-transition: background 0.1s ease-in-out;
+    -moz-transition: background 0.1s ease-in-out;
+    -ms-transition: background 0.1s ease-in-out;
+    -o-transition: background 0.1s ease-in-out;
+
+}
+
+input#button {
+    background-color: #3fb8e8;
+    box-shadow: 0px 3px 0px 0px #3293ba;
+}
+
+input#button:hover {
+    color: white;
+    background-color: #5c88ed;
+
+}
+/*Tira texto do upload da foto*/
+input[type='file'] {
+    color: transparent;
+}

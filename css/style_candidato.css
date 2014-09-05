@@ -1,0 +1,156 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+    background-color: yellow;
+}
+
+body:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-color: darkseagreen;
+}
+
+div.circulo {
+    position: fixed;
+    top: 200px;
+    left: 550px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    z-index: -2;
+}
+
+h1 {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 50%;
+
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 1px 1px 0 #CCC,
+    2px 2px 0 #CCC,
+    3px 3px 0 #444,
+    4px 4px 0 #444,
+    5px 5px 0 #444,
+    6px 6px 0 #444;
+}
+
+h2 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+h3 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+p, li {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+div.bio {
+    position: fixed;
+    left: -190px;
+    top: 0px;
+    background-color: greenyellow;
+    width: 400px;
+    padding: 20px;
+    margin-left: 210px;
+    border: 2px greenyellow;
+    border-radius: 25px;
+    float: left;
+}
+
+div.bio {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+#proposta {
+    position: relative;
+    top: 60px;
+    background-color: greenyellow;
+    width: 49%;
+    padding: 20px;
+    margin-left: 600px;
+    margin-bottom: 50px;
+    border: 2px greenyellow;
+    border-radius: 25px;
+    float: left;
+}
+
+#proposta {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+h3.naoCumprida {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: firebrick;
+}
+
+h3.pendente {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    color: firebrick;
+}
+
+img.FotoCandidato {
+    position: relative;
+    left: 50px;
+    width:75%;
+    border: 2px greenyellow;
+    border-radius: 20px;
+}
+img.FotoCandidato {
+    background-color: darkseagreen;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+#menu {
+    position: relative;
+    left: 900px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 15px;
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 25px;
+    float: left;
+}
+
+a {
+    background-color: darkseagreen;
+    box-shadow: 0px 3px 0px 0px forestgreen;
+}

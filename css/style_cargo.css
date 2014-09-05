@@ -1,0 +1,114 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+
+body {
+    background-color: yellow;
+}
+
+body:before {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    content: "";
+    background-color: darkseagreen;
+
+}
+
+div.circulo {
+    position: fixed;
+    top: 200px;
+    left: 550px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    background-color: cornflowerblue;
+    z-index: -2;
+}
+
+h3 {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 5px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    
+    text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+div.candidato {
+    background-color: greenyellow;
+    width: 400px;
+    padding: 20px;
+    margin-left: 210px;
+    border: 2px greenyellow;
+    border-radius: 25px;
+    float: left;
+}
+
+div.candidato {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+img {
+    position: relative;
+    left: 15%;
+    border: 2px greenyellow;
+    border-radius: 10px;
+    width: 70%;
+}
+img {
+    background-color: greenyellow;
+    box-shadow: 3px 3px 3px 3px forestgreen;
+}
+
+img:hover {
+    border: 200px darkseagreen;
+   /* border-radius: 25px;*/
+}
+
+p {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 19px;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.4);
+}
+
+a:link, a:visited, a:hover, a:active {
+    left: 900px;
+    color: white;
+    text-decoration: none;
+}
+
+#cadastro {
+    position: absolute;
+    left: 1150px;
+    top: 0px;
+
+    border: 2px solid greenyellow;
+    background-color: greenyellow;
+    border-radius: 25px;
+    text-shadow: 0 1px rgba(0, 0, 0, 0.4);
+}
+
+#cadastro {
+    background-color: greenyellow;
+    box-shadow: 0px 3px 0px 0px forestgreen;
+}
+

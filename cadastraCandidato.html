@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Cadastro de Candidato</title>
+    <link rel="stylesheet" type="text/css" href="css/style_cadastro.css" media="screen"/>
+</head>
+<body>
+<div class="circulo"></div>
+<h1>Cadastro de Candidato</h1>
+
+
+<nav id="cadastro">
+    <form>
+        <h3>Nome do Candidato</h3> <input type="text" name="nomeCandidato" autofocus required><br>
+
+        <h3>Nome na urna</h3> <input type="text" name="nomeUrna" required><br>
+
+        <h3>Número de candidatura</h3> <input type="number" name="numero" required><br>
+
+        <h3>Foto</h3> <input type="file" name="somename" size="chars">
+
+
+        <h3>Data de nascimento</h3> <input type="date" max="1899-12-31" required><br>
+
+        <h3>Bio</h3> <input id="bio" type="text" name="bio" style="height: 100px"><br>
+
+        <h3>Senha</h3> <input type="password" name="senha" required><br>
+
+        <h3>E-mail</h3><input type="email" name="email" required><br>
+
+        <h3>Cargo</h3>
+        <select name="cargo" required>
+            <option value="governador">Governador</option>
+            <option value="presidente">Presidente</option>
+        </select>
+
+        <h3>Partido</h3> <input type="text" name="partido" maxlength="4" required><br>
+
+        <input id="button" value="Cadastrar Candidato" type="submit">
+    </form>
+</nav>
+</body>
+</html>
