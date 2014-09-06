@@ -15,7 +15,7 @@
 <div id="governador">
     <a href="governador.html"><img id="imgGovernador" src="images/governador.png"></a>
 </div>
-<p id="pres">Presidente </p>
+<p id="pres">Presidente</p>
 
 <p id="gov">Governador</p>
 </body>
